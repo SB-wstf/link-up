@@ -107,4 +107,6 @@ app.post("/token", (req, res) => {
   keyTokenReceived = true;
   return res.status(200).json({ message: "Received Token" });
 });
-module.exports = app;
+
+
+export default app;
